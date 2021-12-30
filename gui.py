@@ -17,10 +17,11 @@ class Ui_MainWindow(object):
         MainWindow.resize(1200, 800)
         MainWindow.setMaximumSize(QtCore.QSize(1200, 650))
         MainWindow.setMinimumSize(QtCore.QSize(1200, 650))
+        MainWindow.setWindowIcon(QtGui.QIcon("images:paragraph.png"))
         self.mainWindow = QtWidgets.QWidget(MainWindow)
         self.mainWindow.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
         self.mainWindow.setStyleSheet(styleMainWindow)
-        self.mainWindow.setObjectName("mainWindow")
+        self.mainWindow.setObjectName("MainWindow")
 
         self.layoutWidget = QtWidgets.QWidget(self.mainWindow)
         self.layoutWidget.setGeometry(QtCore.QRect(-4, 1, 1200, 150))
@@ -372,7 +373,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("Law acts", "Law acts"))
         self.labelName.setText(_translate("MainWindow", "Wyszukiwarka aktów prawnych"))
         self.typeLabel.setText(_translate("MainWindow", "Typ dokumentu"))
         self.positionLabel.setText(_translate("MainWindow", "Pozycja"))
