@@ -17,7 +17,7 @@ class Ui_MainWindow(object):
         MainWindow.resize(1200, 800)
         MainWindow.setMaximumSize(QtCore.QSize(1200, 650))
         MainWindow.setMinimumSize(QtCore.QSize(1200, 650))
-        MainWindow.setWindowIcon(QtGui.QIcon("images:paragraph.png"))
+        MainWindow.setWindowIcon(QtGui.QIcon(str(CURRENT_DIRECTORY) + "/images/icon.ico"))
         self.mainWindow = QtWidgets.QWidget(MainWindow)
         self.mainWindow.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
         self.mainWindow.setStyleSheet(styleMainWindow)
