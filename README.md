@@ -1,5 +1,3 @@
-![law_acts](https://user-images.githubusercontent.com/94289267/147791807-20342190-0b92-4503-b73a-75be809e3195.PNG)
-
 <div id="top"></div>
 <!-- TABLE OF CONTENTS -->
 <details>
