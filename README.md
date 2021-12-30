@@ -38,7 +38,7 @@ The core idea of this program is searching and filtering law acts.
 Technologiest used to implementation:
 
 * [Python](https://www.python.org/downloads/)
-* [requests](https://docs.python-requests.org/en/latest/)
+* [Requests](https://docs.python-requests.org/en/latest/)
 * [PyQt6](https://pypi.org/project/PyQt6/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
