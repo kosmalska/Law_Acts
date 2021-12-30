@@ -7,7 +7,7 @@ aUtils = actsUtils.ActsUtils()
 # Fills main window with data about law acts
 def fillLinkList(self):
     self.linkList.clear()
-    for act in aUtils.getSearchResutList():
+    for act in aUtils.getSearchResutList(): #TODO http://isap.sejm.gov.pl/api/isap/deeds/WDU/2017/2/text/O/D20170002.pdf
         self.linkList.append(('<a href={} style="color:#1F90D6; text-decoration: none;">{}{}</a>').format(
             act.url,
             act.displayAddress,
