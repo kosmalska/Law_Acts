@@ -75,7 +75,7 @@ If you cannot run app from _"Law_acts.exe"_ file:
 <!-- USAGE -->
 ## Usage
 
-To start searching you should choose at least one of the available filters or if this is a date range you sholud set proper date range and then you can click on _"Search"_ button. After that if there are any search result you can see on the right panel information about searched law acts like below:
+To start searching you should choose at least one of the available filters or if this is a date range you sholud set proper date range and then you can click on _"Search"_ button. After that if there are any search results you can see on the right panel information about searched law acts like below:
 * standard act filename which is clickable link to PDF file and if you click it, it should be open in your default web browser,
 * kind of document,
 * status.
