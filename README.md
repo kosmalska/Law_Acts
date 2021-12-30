@@ -31,6 +31,7 @@
 ## About The Project
 
 This project was created by Joanna Kosmalska for the needs of her master's thesis. 
+The core idea of this program is searching and filtering law acts.
 
 ### Built With
 
@@ -51,29 +52,24 @@ The core idea of this program is searching and filtering law acts.
 
 ### Prerequisites
 
-To run app just download .exe file from release tab on github project page and run them.
+To run app just download _"Law acts.exe"_ file from release tab on github project page and run it.
 If you have any troubles please see below to Installation section.
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+The easiest way to run program is to just download _"Law acts.exe"_ file from release tab on github project page and run it
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+Second option is that:
+1. Clone repository with command ```sh git clone https://github.com/kosmalska/Law_Acts.git ``` or just download project from github.
+2. Open CMD in local project directory.
+3. Execute in CMD that command: ```python gui.py```
+
+If you cannot run app from _"Law acts.exe"_ file:
+1. Download and install Python in version 3.9 from page [https://www.python.org/downloads/](https://www.python.org/downloads/)
+2. Clone repository with command ```sh git clone https://github.com/kosmalska/Law_Acts.git ``` or just download project from github.
+3. Go to project directory and run in CMD this command ```sh pip install -r requirements.txt```
+4. Try to run app from _"Law acts.exe"_ file.
+5. If problem still exists or there are any other problems please open file gui.py in any code editor like e.x. VS Code and then build project in editor.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
