@@ -25,7 +25,7 @@ QLineEdit{
 QTextBrowser{
     background-color: #fff;
     border-radius: 8px;
-    margin: 0px 50px 50px 50px;
+    margin: 0px 40px 150px 40px;
     border: 2px solid #1F90D6;
     padding-left: 5px;
 }""")
