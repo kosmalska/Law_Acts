@@ -1,6 +1,4 @@
-LAW ACTS
 ![law_acts](https://user-images.githubusercontent.com/94289267/147791807-20342190-0b92-4503-b73a-75be809e3195.PNG)
-
 
 <div id="top"></div>
 <!-- TABLE OF CONTENTS -->
@@ -34,6 +32,8 @@ LAW ACTS
 This project was created by Joanna Kosmalska for the needs of her master's thesis. 
 
 The core idea of this program is searching and filtering law acts.
+
+![law_acts](https://user-images.githubusercontent.com/94289267/147791807-20342190-0b92-4503-b73a-75be809e3195.PNG)
 
 ### Built With
 
