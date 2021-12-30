@@ -59,13 +59,13 @@ If you have any troubles please see below to Installation section.
 The easiest way to run program is to just download _"Law acts.exe"_ file from release tab on github project page and run it
 
 Second option is that:
-1. Clone repository with command ```git clone https://github.com/kosmalska/Law_Acts.git ``` or just download project from github.
+1. Clone repository with command ```git clone https://github.com/kosmalska/Law_Acts.git``` or just download project from github.
 2. Open CMD in local project directory.
 3. Execute in CMD that command: ```python gui.py```
 
 If you cannot run app from _"Law acts.exe"_ file:
 1. Download and install Python in version 3.9 from page [https://www.python.org/downloads/](https://www.python.org/downloads/)
-2. Clone repository with command ```git clone https://github.com/kosmalska/Law_Acts.git ``` or just download project from github.
+2. Clone repository with command ```git clone https://github.com/kosmalska/Law_Acts.git``` or just download project from github.
 3. Go to project directory and run in CMD this command ```pip install -r requirements.txt```
 4. Try to run app from _"Law acts.exe"_ file.
 5. If problem still exists or there are any other problems please open file gui.py in any code editor like e.x. VS Code and then build project in editor.
