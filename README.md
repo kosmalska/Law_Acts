@@ -28,6 +28,7 @@
 ## About The Project
 
 This project was created by Joanna Kosmalska for the needs of her master's thesis. 
+
 The core idea of this program is searching and filtering law acts.
 
 ### Built With
@@ -43,9 +44,7 @@ Technologiest used to implementation:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-
-The core idea of this program is searching and filtering law acts.
+Below there are basic informations about that how to run app.
 
 ### Prerequisites
 
