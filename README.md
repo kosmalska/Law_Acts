@@ -19,7 +19,7 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#additional information">Acknowledgments</a></li>
+    <li><a href="#additional information">Additional information</a></li>
   </ol>
 </details>
 
@@ -71,15 +71,17 @@ If you cannot run app from _"Law acts.exe"_ file:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- USAGE EXAMPLES -->
+<!-- USAGE -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+To start searching you should choose at least one of the available filters or if this is a date range you sholud set proper date range and then you can click on _"Search"_ button. After that if there are any search result you can see on the right panel information about searched law acts like below:
+* standard act filename which is clickable link to PDF file and if you click it, it should be open in your default web browser,
+* kind of document,
+* status.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Search results are limited to 5000 which is caused by security reasons.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
+If you click on _"I"_ icon it will be open an information window.
 
 <!-- LICENSE -->
 ## License
@@ -102,7 +104,7 @@ Project Link: [https://github.com/kosmalska/Law_Acts](https://github.com/kosmals
 <!-- ADDITIONAL INFORMATION -->
 ## Additional information
 
-To realize this project was needed to use SAP open API which can be accessed by below link:
+To realize this project was needed to use ISAP open API which can be accessed by below link:
 
 * [ISAP API](http://isap.sejm.gov.pl/api/isap/)
 
