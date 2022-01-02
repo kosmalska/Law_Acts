@@ -1,1 +1,5 @@
+# Without icon
 pyinstaller.exe --onefile --windowed gui.py
+
+# With icon
+pyinstaller.exe --onefile --windowed --icon=images/icon.ico gui.py
