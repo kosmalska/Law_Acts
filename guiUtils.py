@@ -58,7 +58,12 @@ def mapInputs(self):
     if publicationPlaceBool != False and publicationPlaceText != "": inputMap["publisher"] = resolvePublisher(publicationPlaceText)   
     if typeBool != False and typeInputText != "": inputMap["type"] = typeInputText
     if positionBool != False and positionInputText != "": inputMap["position"] = positionInputText
-    if keywordsBool != False and keywordsText != "": inputMap["keyword"] = resolveKeywords(keywordsText)
+    if keywordsBool != False and keywordsText != "": 
+        tmpKeyword = resolveKeywords(keywordsText)
+        if tmpKeyword[0].isupper():
+            inputMap["keywordName"] = resolveKeywords(keywordsText)
+        else:
+            inputMap["keyword"] = resolveKeywords(keywordsText)
     if dateFromBool != False and dateFromInputText != "": inputMap["pubDateFrom"] = dateFromInputText
     if dateToBool != False and dateToInputText != "": inputMap["pubDateTo"] = dateToInputText
     if yearBool != False and yearInputText != "": inputMap["year"] = yearInputText
