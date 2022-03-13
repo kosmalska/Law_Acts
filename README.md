@@ -35,7 +35,7 @@ The core idea of this program is searching and filtering law acts.
 
 ### Built With
 
-Technologiest used to implementation:
+Technologies used to implementation:
 
 * [Python](https://www.python.org/downloads/)
 * [Requests](https://docs.python-requests.org/en/latest/)
